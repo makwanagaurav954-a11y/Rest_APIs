@@ -1,0 +1,13 @@
+body{
+    
+    margin-bottom: 10rem;
+}
+
+.post{
+    background-color: hsl(81, 54%, 58%);
+}
+
+.create_link{
+    position: relative;
+    bottom: -2rem;
+}
