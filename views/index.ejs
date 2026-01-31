@@ -13,8 +13,11 @@
         <h1><%= post.username %></h1>
         <p><%= post.content %></p>
 
-        <!-- <a href="http://localhost:5000/post/<%= post.username %>/edit">Edit Post</a>&emsp;
-        <a href="http://localhost:5000/post/<%= post.username %>/delete">delete post</a> -->
+        <!-- <a href="http://localhost:5000/post/<%= post.username %>/edit">Edit Post</a>&emsp; -->
+        <!-- <a href="http://localhost:5000/post/<%= post.username %>/delete">delete post</a> -->
+
+         <!-- FOR RENDER also works for localhost -->
+          <a href="/post/<%= post.username %>/show"> See in detail</a>&emsp;
         <a href="/post/<%= post.username %>/edit">Edit Post</a>&emsp;
         <a href="/post/<%= post.username %>/delete">delete post</a>
     </div>

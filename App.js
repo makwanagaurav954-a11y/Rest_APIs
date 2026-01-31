@@ -37,7 +37,6 @@ app.get("/posts", (req,res) => {
 app.get("/post/:username/show", (req,res) => {
     let {username} = req.params;
     let post = posts.find( p => p.username === username);
-    
     res.render("single_post", { post });
 });
 
